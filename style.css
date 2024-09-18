@@ -1,0 +1,109 @@
+
+body{
+    text-align: center; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 10px, black;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+     
+}
+
+.square {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px; 
+  background-color: gray;
+  border: 4px solid white;
+  border-radius: 10px; 
+  padding: 0px;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  
+  .item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    padding: 0px;
+  }
+  
+
+  .block {
+    display: block;
+    width: 100%;
+    border: solid, 4px;
+    border-color: white;   
+    padding: 65px 65px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px; 
+    transition: all 0.4s; 
+  }
+
+  .block:hover{
+    scale: 1.06;
+    box-shadow: 3px;
+  }
+
+  /*PINK BLOCKS*/
+  button.b1{
+    background-color: rgba(255,105,180);
+  }
+  button.b12{
+    background-color: rgba(255,80,180); 
+  }
+
+  /*YELLOW BLOCKS*/
+  button.b2{
+    background-color: rgb(255,255,102); 
+  }
+  button.b21{
+    background-color: rgb(255,255,143); 
+  }
+
+  /*ORANGE BLOCKS*/
+  button.b3{
+    background-color: rgb(255, 172, 28); 
+  }
+  button.b31{
+    background-color: rgb(245, 182, 23); 
+  }
+
+  /*BLUE BLOCKS*/
+  button.b4{
+    background-color: rgb(135,206,250); 
+  }
+  button.b41{
+    background-color: rgb(150,216,250); 
+  }
+
+   /*GREEN BLOCKS*/
+   button.b5{
+    background-color: rgb(80, 200, 120); 
+  }
+  button.b51{
+    background-color: rgb(100, 183, 120); 
+  }
+
+/*EXPLANATION*/
+.explanationR{
+    display: none; 
+    /*display : block; --> to show */
+}
+.explanationW{
+    display: none; 
+    /*display : block; --> to show */
+}
+
